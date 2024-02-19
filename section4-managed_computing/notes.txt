@@ -1,0 +1,194 @@
+Azure IaaS (Infrastructure as a Service):
+
+What Azure Provides:
+
+    Azure provides virtualized computing resources over the internet.
+    It offers scalable infrastructure, including virtual machines, storage, and networking components.
+    Users have control over operating systems, applications, and development frameworks.
+
+What We Need to Do:
+
+    Provision and manage virtual machines.
+    Configure networking, storage, and security settings.
+    Install and manage operating systems and applications.
+
+Examples:
+
+    Running Windows or Linux virtual machines.
+    Hosting websites or web applications.
+    Creating development and testing environments.
+
+Azure PaaS (Platform as a Service):
+
+What Azure Provides:
+
+    Azure offers a platform for developing, deploying, and managing applications without worrying about underlying infrastructure.
+    It provides a fully managed environment for developers to focus on building applications.
+    Includes services for databases, web hosting, and application development frameworks.
+
+What We Need to Do:
+
+    Develop and deploy applications using provided services.
+    Configure application settings and scale as needed.
+    Monitor application performance and usage.
+
+Examples:
+
+    Hosting web applications using Azure App Service.
+    Developing and deploying databases using Azure SQL Database.
+    Building serverless applications using Azure Functions.
+
+
+
+
+Azure App Service Notes:
+
+What Azure Provides:
+
+    Platform as a Service (PaaS): Azure App Service is a fully managed platform for building, deploying, and scaling web apps and APIs.
+    Integrated Services: Azure provides integration with various Azure services like Azure SQL Database, Azure Cosmos DB, Azure Active Directory, etc.
+    Deployment Options: Supports deployment via Git, GitHub, Azure DevOps, FTP, Docker, and more.
+    Automatic Scaling: Azure App Service automatically scales your application based on demand, ensuring optimal performance and cost-efficiency.
+    Monitoring and Analytics: Azure App Service offers built-in monitoring and analytics tools for tracking application performance and diagnosing issues.
+
+What We Need to Do:
+
+    Create App Service: Provision an Azure App Service instance from the Azure Portal.
+    Deploy Application: Deploy your web app or API to Azure App Service using preferred deployment method.
+    Configure Settings: Configure settings such as custom domains, SSL certificates, environment variables, and scaling options.
+    Monitor Performance: Utilize Azure's built-in monitoring tools to track application performance and diagnose issues.
+    Scale as Needed: Adjust scaling settings to accommodate changes in traffic demands.
+
+Examples:
+
+    Web Applications: Host websites, web apps, and APIs developed using various technologies like .NET, Node.js, Python, etc.
+    Mobile Backend: Backend services for mobile applications, providing data storage, authentication, and push notifications.
+    RESTful APIs: Build and deploy RESTful APIs to serve data and functionality to other applications or clients.
+
+Scale Out vs. Scale Up:
+
+    Scale Out: Increasing the number of instances (horizontal scaling) to handle increased workload. This involves adding more virtual machines or containers to distribute the load across multiple instances.
+    Scale Up: Increasing the resources allocated to a single instance (vertical scaling) to handle increased workload. This involves upgrading the virtual machine or container to a higher performance tier with more CPU, memory, or other resources.
+
+
+
+What Azure Provides:
+
+    Container Orchestration: Azure provides robust container orchestration services like Azure Kubernetes Service (AKS) and Azure Container Instances (ACI).
+    Docker Support: Fully supports Docker containers, enabling developers to build, deploy, and manage containerized applications seamlessly.
+    Managed Services: Azure manages the underlying infrastructure, allowing developers to focus solely on building and deploying containerized applications.
+    Scalability: Easily scale containerized applications up or down based on demand using Azure's scaling features.
+    Integration: Integrates with other Azure services like Azure Monitor, Azure Active Directory, Azure DevOps, etc., for enhanced functionality.
+
+What We Need to Do:
+
+    Containerize Application: Package your application into Docker containers, ensuring all dependencies are included within the container.
+    Choose Deployment Option: Decide whether to deploy containers to Azure Kubernetes Service (AKS) for orchestration or directly to Azure Container Instances (ACI) for simplicity.
+    Provision Resources: Provision necessary resources like AKS clusters or ACI instances from the Azure Portal or using Azure CLI.
+    Deploy Containers: Deploy containerized applications to AKS clusters or ACI instances using Docker images stored in container registries like Azure Container Registry (ACR).
+    Configure Networking: Configure networking settings to allow communication between containers, services, and external resources.
+    Monitor and Scale: Utilize Azure's monitoring tools to monitor containerized applications' performance and scalability features to adjust resources as needed.
+
+Examples:
+
+    Microservices Architecture: Deploy microservices-based applications using Docker containers orchestrated by AKS for scalability and resilience.
+    Continuous Integration/Continuous Deployment (CI/CD): Implement CI/CD pipelines to automate the deployment of containerized applications using Azure DevOps or GitHub Actions.
+    Hybrid Cloud: Build hybrid cloud solutions by deploying containers across on-premises environments and Azure using Azure Arc-enabled Kubernetes.
+
+Scale Out vs. Scale Up:
+
+    Scale Out: Increase the number of container instances or pods to handle increased workload by adding more replicas to the deployment.
+    Scale Up: Increase the resources allocated to each container instance or pod by upgrading the underlying VMs or nodes in the Kubernetes cluster to a higher performance tier.
+
+
+Azure App Service vs. Azure App Container Notes:
+
+Azure App Service:
+
+    What Azure Provides:
+        Fully managed platform for building, deploying, and scaling web apps and APIs.
+        Integrated with various Azure services like Azure SQL Database, Azure Cosmos DB, etc.
+        Supports deployment via Git, GitHub, Azure DevOps, FTP, Docker, etc.
+        Automatic scaling based on demand.
+        Built-in monitoring and analytics tools.
+
+    What We Need to Do:
+        Create App Service instance from Azure Portal.
+        Deploy web apps or APIs using preferred method.
+        Configure settings like custom domains, SSL certificates, etc.
+        Monitor performance and diagnose issues.
+        Scale application as needed.
+
+    Examples:
+        Host websites, web apps, and APIs.
+        Backend services for mobile applications.
+        RESTful APIs.
+
+Azure App Container:
+
+    What Azure Provides:
+        Supports containerized applications using Docker.
+        Provides options like Azure Kubernetes Service (AKS) and Azure Container Instances (ACI).
+        Fully managed container orchestration services.
+        Integration with Azure services for enhanced functionality.
+        Scalability and resilience for containerized applications.
+
+    What We Need to Do:
+        Containerize application using Docker.
+        Choose between AKS for orchestration or ACI for simplicity.
+        Provision resources such as AKS clusters or ACI instances.
+        Deploy containerized applications using Docker images.
+        Configure networking and monitor performance.
+        Scale containers as required.
+
+    Examples:
+        Microservices architecture.
+        CI/CD pipelines for containerized applications.
+        Hybrid cloud solutions.
+
+Azure Container Orchestration Notes:
+
+    What Azure Provides:
+        Azure Kubernetes Service (AKS) and Azure Container Instances (ACI) for container orchestration.
+        Management of containerized applications and resources.
+        Integration with other Azure services for enhanced functionality.
+        Automation of deployment, scaling, and management tasks.
+        Monitoring and logging capabilities for containerized environments.
+
+    What We Need to Do:
+        Choose appropriate orchestration service based on requirements.
+        Provision resources like AKS clusters or ACI instances.
+        Deploy containerized applications using Docker images.
+        Configure networking, security, and scaling options.
+        Monitor performance and diagnose issues.
+        Implement CI/CD pipelines for automated deployment.
+
+    Examples:
+        Microservices deployment using AKS.
+        Stateless application deployment with ACI.
+        Hybrid cloud solutions with Azure Arc-enabled Kubernetes.
+
+
+what is azure container orchestration in brief i 4 lines
+
+
+Azure container orchestration in Azure involves managing and automating the deployment, scaling, and operation of containerized applications. It includes services like Azure Kubernetes Service (AKS) and Azure Container Instances (ACI) to efficiently deploy and manage containers at scale. Container orchestration ensures high availability, resilience, and scalability for applications by automating tasks such as load balancing, resource allocation, and self-healing mechanisms. It also integrates with other Azure services for enhanced functionality and monitoring capabilities.
+
+
+what is serverless . how to use that in azure in brief
+
+Serverless computing is a cloud computing model where the cloud provider dynamically manages the allocation and provisioning of servers. Users only pay for the actual resources consumed during the execution of their code, rather than paying for a fixed amount of server capacity.
+
+In Azure, you can leverage serverless computing through services like Azure Functions and Azure Logic Apps:
+
+    Azure Functions: Allows you to write small pieces of code (functions) that are triggered by various events without managing the infrastructure. You can write functions in languages like C#, JavaScript, Python, and more, and Azure automatically scales them based on demand.
+
+    Azure Logic Apps: Enables you to build workflows that automate processes and integrate various services and applications without writing code. Logic Apps provide a visual designer to create workflows using a wide range of connectors to Azure services and third-party applications.
+
+To use serverless computing in Azure:
+
+    Identify the tasks or processes in your application that can be implemented as discrete functions or workflows.
+    Choose between Azure Functions or Azure Logic Apps based on your requirements (e.g., event-driven processing, workflow automation).
+    Develop and deploy your functions or workflows using Azure's management portal, CLI, or tools like Visual Studio Code.
+    Configure triggers and bindings to define how your functions are triggered and interact with other services.
+    Monitor your serverless applications using Azure Monitor and other built-in monitoring tools to ensure performance and scalability.
